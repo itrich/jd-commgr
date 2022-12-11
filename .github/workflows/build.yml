@@ -11,13 +11,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Setup TeX Live
+      uses: teatimeguest/setup-texlive-action@v2
+      with:
+        packages: >-
+          koma-script
+          adjustbox
+          babel
+          background
+          bidi
+          collectbox
+          csquotes
+          everypage
+          filehook
+          footmisc
+          footnotebackref
+          framed
+          fvextra
+          letltxmacro
+          ly1
+          mdframed
+          mweights
+          needspace
+          pagecolor
+          sourcecodepro
+          sourcesanspro
+          titling
+          ucharcat
+          ulem
+          unicode-math
+          upquote
+          xecjk
+          xurl
+          zref
+          hardwrap
+          catchfile
     - name: Build PDF
       run: |
         mkdir ./output
-        sudo apt-get install -y texlive-base
-        tlmgr install koma-script adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref hardwrap catchfile
         make README.pdf
-    - uses: actions/upload-artifact@master
+    - uses: actions/upload-artifact@v3
       with:
         name: output
         path: output    
