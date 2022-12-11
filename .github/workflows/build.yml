@@ -46,6 +46,9 @@ jobs:
           zref
           hardwrap
           catchfile
+    - uses: r-lib/actions/setup-pandoc@v2
+      with:
+        pandoc-version: '2.19.2' # The pandoc version to download (if necessary) and use.
     - name: Build PDF
       run: |
         mkdir ./output
