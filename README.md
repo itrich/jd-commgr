@@ -9,7 +9,6 @@ link-citations: true
 csl: ieee.csl
 toc: true
 lof: true
-lot: true
 nocite: '@*'
 titlepage: true
 titlepage-rule-color: 50c3a5
@@ -25,22 +24,28 @@ logo-width: 100mm
 
 A community of employees from participating and interested companies are regularly contributing towards the joint mission of SCS. Additionally, the OSBA is building a team that manages and coordinates standardization, software integration and the development of this network. 
 
- This document describes the upstream community we're striving for and how the dedicated role of a community manager can significantly contribute to this goal. The community manager of SCS takes responsibility to foster a thriving upstream community and empowers as well as motivates individuals to (technically) contribute to the project. 
+This document describes the upstream community we're striving for and how the dedicated role of a community manager can significantly contribute to this goal. The community manager of SCS takes responsibility to foster a thriving upstream community and empowers as well as motivates individuals to (technically) contribute to the project. 
 
 # The community and culture we're striving for
 
-The SCS project is striving for a self-organized and motivated community, that can contribute without being blocked or having to ask for permission. We're following the fundamental principle *people over processes over tools*[^PPT] and align our actions accordingly.
+The SCS project is striving for a self-organized and motivated upstream community, that can contribute to the project without being blocked or having to ask for permission. All our actions are aligned to the fundamental principle of *people over processes over tools* [@PPT].
 
-By providing the proper processes (and thus the needed toolset) that are defined by the community, the barrier to engage is significantly lowered.
+![People over Processes over Tools](images/PPT.pdf){ width=100mm }
+
+We're aiming to build a culture that is welcoming, respectful, and adheres to the project's code of conduct [@CoC]. Our community is believing in the joint vision to build a federated, compatible platform and is eager to contribute to this mission. Every contribution – be it technical or non-technical – has an impact and makes a difference. Thus, we're promoting self-efficacy and encourage veterans as well as newcomers to engage in the community's activities.
 
 # Mission statement of the community manager
 
-The key performance indicators of the community manager can be
+The prime responsibility of the community manager in the SCS project is to create an environment that...
 
-- Keep people interested
-- Keep people informed
-- Keep people involved
-- Keep people inspired
+1. keeps people interested,
+2. keeps people informed,
+3. keeps people involved, and
+4. keeps people inspired.
+
+By helping community members, providing the proper processes and last but not least the needed tools, the barrier to contribute to the project is significantly lowered.
+
+Keeping in sync with an active community can be challenging. By providing points of entry for every level of expertise and time budget, the community is kept involved and informed. Synchronous presence in the community meetings should not be mandatory to engage. All discussions and conclusions are made fully transparent and proper processes allow to contribute to SCS without having the fear to miss out. 
 
 # Tasks and Responsibilities
 
@@ -87,5 +92,3 @@ The key performance indicators of the community manager can be
 - Management of the dedicated **Matomo** instance for SCS
 
 # Bibliography
-
-[^PPT]: See [@PPT]
