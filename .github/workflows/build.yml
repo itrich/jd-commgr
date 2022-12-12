@@ -26,3 +26,12 @@ jobs:
       with:
         name: output
         path: output    
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "output/*.pdf"
+        allowUpdates: true
+        draft: true
+        makeLatest: true
+        omitBody: true
+        name: 'Latest'
+        replacesArtifacts: true
