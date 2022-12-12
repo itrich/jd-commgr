@@ -45,7 +45,7 @@ The prime responsibility of the community manager in the SCS project is to creat
 
 By helping community members, providing the proper processes and last but not least the needed tools, the barrier to contribute to the project is significantly lowered.
 
-Keeping in sync with an active community can be challenging. By providing points of entry for every level of expertise and time budget, the community is kept involved and informed. Synchronous presence in the community meetings should not be mandatory to engage. All discussions and conclusions are made fully transparent and proper processes allow to contribute to SCS without having the fear to miss out. 
+Keeping in sync with an active community can be challenging. By providing points of entry for every level of expertise and time budget, the community is kept involved and informed. Synchronous presence in the community meetings should not be mandatory to engage. All discussions and conclusions are made fully transparent and proper processes allow to contribute to SCS without having the fear of missing out[^FOMO]. 
 
 # Tasks and Responsibilities
 
@@ -92,3 +92,5 @@ Keeping in sync with an active community can be challenging. By providing points
 - Management of the dedicated **Matomo** instance for SCS
 
 # Bibliography
+
+[^FOMO]: Fear of missing out (FOMO) is the feeling of apprehension that one is either not in the know or missing out on information, events, or experiences. See <https://en.wikipedia.org/wiki/Fear_of_missing_out>.
