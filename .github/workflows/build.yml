@@ -14,38 +14,7 @@ jobs:
     - name: Setup TeX Live
       uses: teatimeguest/setup-texlive-action@v2
       with:
-        packages: >-
-          koma-script
-          adjustbox
-          babel
-          background
-          bidi
-          collectbox
-          csquotes
-          everypage
-          filehook
-          footmisc
-          footnotebackref
-          framed
-          fvextra
-          letltxmacro
-          ly1
-          mdframed
-          mweights
-          needspace
-          pagecolor
-          sourcecodepro
-          sourcesanspro
-          titling
-          ucharcat
-          ulem
-          unicode-math
-          upquote
-          xecjk
-          xurl
-          zref
-          hardwrap
-          catchfile
+        package-file: packages.txt
     - uses: r-lib/actions/setup-pandoc@v2
       with:
         pandoc-version: '2.19.2' # The pandoc version to download (if necessary) and use.
