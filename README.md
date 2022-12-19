@@ -30,7 +30,7 @@ This document describes the upstream community we're striving for and how the de
 
 The SCS project is striving for a self-organized and motivated upstream community, that can contribute to the project without being blocked or having to ask for permission. All our actions are aligned to the fundamental principle of *people over processes over tools* [@PPT].
 
-![People over Processes over Tools](images/PPT.pdf){ width=100mm }
+![People over Processes over Tools](images/PPT.svg){ width=100mm }
 
 We're aiming to build a culture that is welcoming, respectful, and adheres to the project's code of conduct [@CoC]. Our community is believing in the joint vision to build a federated, compatible platform and is eager to contribute to this mission. Every contribution – be it technical or non-technical – has an impact and makes a difference. Thus, we're promoting self-efficacy and encourage veterans as well as newcomers to engage in the community's activities.
 
